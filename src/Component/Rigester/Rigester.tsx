@@ -54,7 +54,7 @@ const onSubmit = async (data: RegisterForm) => {
 
 
   return (
-    <div className="container mt-5" style={{ maxWidth: "600px" }}>
+    <div className="container mt-5" data-theme="dark" style={{ maxWidth: "600px" }}>
       <h2 className="mb-4">Create Account</h2>
 
       <form onSubmit={handleSubmit(onSubmit)}>
