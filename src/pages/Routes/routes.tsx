@@ -12,10 +12,10 @@ import Login from "../../Component/Login/Login";
 const router = createBrowserRouter([
 
     {path: "", element:<Layout />, children: [
+        {index: true,element: <Register />},
+        { path: "/login",element: <Login /> },
        {path: "/home",element: <ProtectedRoute><Home /></ProtectedRoute> },
        {path: "/posts",element: <ProtectedRoute><Posts /></ProtectedRoute>},
-       {path: "/",element: <Register />},
-       { path: "/login",element: <Login /> },
        { path: "*",element: <NotFound /> }
 
       ]
