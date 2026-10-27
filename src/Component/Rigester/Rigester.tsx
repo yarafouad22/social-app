@@ -158,7 +158,7 @@ const onSubmit = async (data: RegisterForm) => {
           {errors.rePassword && <p className="text-danger">{errors.rePassword.message}</p>}
         </div>
 
-        <button type="submit" className="btn btn-primary w-100 mb-5">
+        <button type="submit" className="btn btn-primary w-100 mb-5 danger">
           Register
         </button>
       </form>
