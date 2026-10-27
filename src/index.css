@@ -51,6 +51,8 @@
 .dark,
 [data-theme="dark"] {
   color-scheme: dark;
+   background-color: var(--background);
+  color: var(--foreground);
   /* Theme Colors (Dark Mode) */
   --accent: oklch(80.09% 0.1940 11.09);
   --accent-foreground: oklch(15% 0.0300 11.09);
