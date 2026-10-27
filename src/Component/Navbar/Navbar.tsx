@@ -38,7 +38,7 @@ export default function Navbar() {
                 Login
               </NavLink>
 
-              <NavLink className="nav-link" to="/register">
+              <NavLink className="nav-link" to="/">
                 Register
               </NavLink>
             </>
