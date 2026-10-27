@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     {path: "", element:<Layout />, children: [
        {path: "/home",element: <ProtectedRoute><Home /></ProtectedRoute> },
        {path: "/posts",element: <ProtectedRoute><Posts /></ProtectedRoute>},
-       {path: "true",element: <Register />},
+       {path: "/",element: <Register />},
        { path: "/login",element: <Login /> },
        { path: "*",element: <NotFound /> }
 
